@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>180</sentences><tokens>2148</tokens><words>2149</words><fused>1</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>180</sentences><tokens>2148</tokens><words>2149</words><fused>1</fused></test>
+  </size>
+  <lemmas unique="615" /><!-- آسُن, ۔, سُہ, مَنٛز, تہٕ, ،, گَژُن, کَرُن, سُنٛد, نِہروٗ, ", بہِ, یُن, نہٕ, اَکھ -->
+  <forms unique="863" /><!-- ۔, مَنٛز, تہٕ, ،, اوس, چھُ, ", تٔمؠ, سُہ, نِہروٗ, نہٕ, اَکھ, اَس, بہٕ, سُنٛد -->
+  <fusions unique="1" /><!-- کانٛگرٛیسکِس -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">132</tag><!-- ہِندوستٲنؠ, بۆڈ, جان, زیٛادٕ, گۄڈنُیٛک, غٲر, پَسَنٛد, أمیٖر, اَعظَم, اَہَم -->
+    <tag name="ADP">234</tag><!-- مَنٛز, سُنٛد, اَس, خٲطرٕ, ہُنٛد, سٟتؠ, پؠٹھ, پَتہٕ, کِس, یَس -->
+    <tag name="ADV">69</tag><!-- سؠٹھا, ییٚلہِ, توتہِ, تیٚلہِ, واپَس, بیترِ, جَلِد, زورہِ, پَتہٕ, یور -->
+    <tag name="AUX">138</tag><!-- آسُن, یُن -->
+    <tag name="CCONJ">74</tag><!-- تہٕ, مَگَر, یا, نَتہِ, کِنہِ -->
+    <tag name="DET">40</tag><!-- اَکھ, یُس, سُہ, یہِ, کیٚنٛہہ, یِم, آل, دَ, سۄ, ہُ -->
+    <tag name="NOUN">419</tag><!-- تٔحریٖک, چِٹھ, کِتاب, اَز, سَرکار, ؤکیٖل, گَر, آزٲدی, ؤری, اَثَر -->
+    <tag name="NUM">49</tag><!-- 1912, 1916, 14, 1917, 1919, 1920, 1947, زٕ, 18, 1857 -->
+    <tag name="PART">55</tag><!-- نہٕ, تہِ, نَہ, وول, ما -->
+    <tag name="PRON">203</tag><!-- سُہ, بہِ, پان, یُس, یہِ, سۄ, ژہِ, کُس, تِم, پَنُن -->
+    <tag name="PROPN">275</tag><!-- نِہروٗ, مۆہَن, کانٛگرٛیس, اَسلَم, دِل, ہِندوستان, گانٛدھی, بێسَنٹ, لال, اینی -->
+    <tag name="PUNCT">193</tag><!-- ۔, ،, ", :, (, ), ؛, ', ... -->
+    <tag name="SCONJ">23</tag><!-- زِ, تِکیٛازِ, کہِ, اَگَر, اَگَرچہِ -->
+    <tag name="VERB">245</tag><!-- گَژُن, کَرُن, یُن, دِیُن, لیکھُن, بَنُن, پَرُن, وَنُن, پؠۆن, رۆزُن -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="27">
+    <feat name="Gender" value="Fem" upos="PRON">8</feat><!-- سۄ, تَمہِ -->
+    <feat name="Gender" value="Masc" upos="PRON">68</feat><!-- سُہ, تٔمؠ, تٔمِس, تَم -->
+    <feat name="Mood" value="Imp" upos="VERB">2</feat><!-- کَر, یِزہِ -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">267</feat><!-- اوس, چھُ, أسؠ, چھَ, کۆر, گَو, گَژھہِ, وۆن, آو, چھِ -->
+    <feat name="Number" value="Plur" upos="DET,PRON">14</feat><!-- تِم, اَسؠ, تِمَن, تِمَو, تۆہؠ, سون, سٲنِس, یِم, یِمَن, یِمَو -->
+    <feat name="Number" value="Sing" upos="PRON">115</feat><!-- سُہ, تٔمؠ, بہٕ, مےٚ, تٔمِس, سۄ, ژہِ, تَمہِ, ژٚ, تَس -->
+    <feat name="NumType" value="Card" upos="NUM">49</feat><!-- 1916, 14, 1912, 1917, 1919, 1920, 1947, زٕ, 18, 1857 -->
+    <feat name="Person" value="1" upos="PRON">37</feat><!-- بہٕ, مےٚ, اَسؠ, مؠون, سون, سٲنِس, میٛٲنِس -->
+    <feat name="Person" value="2" upos="PRON">14</feat><!-- ژہِ, تۄہہِ, ژٚ, تُہُنٛد, تُہٕنٛز, تُہٕنٛزٕ, تۆہؠ -->
+    <feat name="Person" value="3" upos="PRON">91</feat><!-- تٔمؠ, سُہ, تٔمِس, سۄ, تِم, تَمہِ, تَس, تَم, تِمَن, تِمَو -->
+    <feat name="Polarity" value="Neg" upos="AUX">4</feat><!-- چھُنہٕ, چھَنہٕ -->
+    <feat name="Poss" value="Yes" upos="PRON">18</feat><!-- پَنُن, مؠون, پَننِس, تُہُنٛد, تُہٕنٛز, تُہٕنٛزٕ, تِہُنٛد, تِہٕنٛدؠ, تِہٕنٛزٕ, تٔمیُٛک -->
+    <feat name="PronType" value="Art" upos="DET">1</feat><!-- دَ -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">22</feat><!-- یَتھ, یہِ, تَتھ, اَمہِ, تَمہِ, سۄ, ہُ, یِم, یِمَن, یِمَو -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">29</feat><!-- اَکھ, اَکِس, کاہ, کیٚنٛہہ, أکِس, اَكھ, اَکؠ, کٚہ, کێنٛہہ -->
+    <feat name="PronType" value="Int" upos="PRON">11</feat><!-- کؠا, کَمِس, کُس, کَمؠ -->
+    <feat name="PronType" value="Prs" upos="PRON">161</feat><!-- تٔمؠ, سُہ, بہٕ, مےٚ, تٔمِس, سۄ, پانَس, پانہٕ, ژہِ, تِم -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">15</feat><!-- یُس, یَتھ, یۄس, ییٚمؠ, یٚمہِ, ییٚمیُٛک -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">4</feat><!-- آل, دۄشوؠن, سارِوٕے, سٲری -->
+    <feat name="Reflex" value="Yes" upos="PRON">19</feat><!-- پانَس, پانہٕ, پَنُن, پان, پَننِس, پانہِوانؠ -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">28</feat><!-- گَژھہِ, یِیہِ, پٚیہِ, کَرہِ, آسہِ, بَنہِ, دِیہِ, لێکھِکھا, میلَن, نێرَکھ -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">170</feat><!-- اوس, أسؠ, کۆر, گَو, وۆن, آو, آیہِ, کٔر, گۆو, دؠُت -->
+    <feat name="Tense" value="Pres" upos="AUX">62</feat><!-- چھُ, چھَ, چھِ, چھُس, چھُنہٕ, چھَنہٕ, چھَے, چھُسَتھ, چھُم -->
+    <feat name="VerbForm" value="Conv" upos="VERB">14</feat><!-- بٔنِتھ, بِہِتھ, مٔشِتھ, نیٖرِتھ, واتِتھ, پَرِتھ, پٔرِتھ, کَرِتھ, کَرِنَے, کٔرِتھ -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">269</feat><!-- اوس, چھُ, أسؠ, چھَ, کۆر, گَو, گَژھہِ, وۆن, آو, چھِ -->
+    <feat name="VerbForm" value="Inf" upos="VERB">34</feat><!-- کَرنہٕ, یِنہٕ, ماننہٕ, اَنِنہِ, بَناوَن, بَننہٕ, بَچاونہٕ, دِنؠ, زاننہٕ, سونٛچُن -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">66</feat><!-- کَران, گَژھان, یِوان, باسان, روزَن, مانان, پَرٕناوان, دوران, سَپدان, میلان -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="31">
+    <dep name="acl">11</dep>
+    <dep name="acl:relcl">13</dep>
+    <dep name="advcl">42</dep>
+    <dep name="advmod">113</dep>
+    <dep name="amod">97</dep>
+    <dep name="appos">20</dep>
+    <dep name="aux">57</dep>
+    <dep name="aux:pass">10</dep>
+    <dep name="case">225</dep>
+    <dep name="cc">74</dep>
+    <dep name="ccomp">12</dep>
+    <dep name="compound">82</dep>
+    <dep name="compound:redup">5</dep>
+    <dep name="conj">89</dep>
+    <dep name="cop">70</dep>
+    <dep name="csubj">6</dep>
+    <dep name="det">40</dep>
+    <dep name="flat">56</dep>
+    <dep name="iobj">12</dep>
+    <dep name="mark">40</dep>
+    <dep name="nmod">104</dep>
+    <dep name="nsubj">228</dep>
+    <dep name="nsubj:pass">9</dep>
+    <dep name="nummod">34</dep>
+    <dep name="obj">75</dep>
+    <dep name="obl">209</dep>
+    <dep name="obl:agent">2</dep>
+    <dep name="parataxis">6</dep>
+    <dep name="punct">193</dep>
+    <dep name="root">180</dep>
+    <dep name="xcomp">35</dep>
+  </deps>
+</treebank>
